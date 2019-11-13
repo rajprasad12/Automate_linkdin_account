@@ -2,7 +2,7 @@
 ######### email id: prasadraj954@gmail.com ########
 
 from selenium import webdriver
-driver=webdriver.Chrome(executable_path="G:\\webdriver\\chromedriver.exe")
+driver=webdriver.Chrome(executable_path="G:\\webdriver\\chromedriver.exe") ## locate the path of your webdriver 
 driver.get("https://www.linkedin.com")
 driver.find_element_by_name("session_key").send_keys("prasadraj954@gmail.com")
 driver.find_element_by_name("session_password").send_keys("password") ## type the password
